@@ -1,6 +1,6 @@
 /**
  *
- * @source: http://candybox2.net/candybox2_uncompressed.js
+ * @source: http://candybox2.avii.nl/candybox2_uncompressed.js
  *
  * @licstart  The following is the entire license notice for the 
  *  JavaScript code in this page.
@@ -16892,7 +16892,7 @@ var Save = (function (_super) {
                 yAdd += 1;
 
             for (var i = 1; i <= 5; i++) {
-                link = "http://candybox2.net/?slot=" + i.toString();
+                link = "http://candybox2.avii.nl/?slot=" + i.toString();
                 this.renderArea.addHtmlLink(x + 2, y + yAdd + 3 + i, link, link);
                 this.renderArea.drawString("(slot " + i.toString() + ")", x + link.length + 4, y + yAdd + 3 + i);
             }
@@ -19320,7 +19320,7 @@ else {
 
         // Hardmode
         this.renderArea.drawString("If you want more challenge, you can also play hardmode here : ", 1, 17);
-        this.renderArea.addHtmlLink(63, 17, "http://candybox2.net/?gamemode=hard", "http://candybox2.net/?gamemode=hard");
+        this.renderArea.addHtmlLink(63, 17, "http://candybox2.avii.nl/?gamemode=hard", "http://candybox2.avii.nl/?gamemode=hard");
 
         // Create your quest!
         this.renderArea.drawString("If you're a programmer and you want to create a quest,                     and                 !", 1, 15);
